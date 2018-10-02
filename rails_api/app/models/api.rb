@@ -1,6 +1,2 @@
-
-# 
-# data = RestClient.get 'https://api.harvardartmuseums.org/period #{ENV[HARVARD]}'
-#
-# binding.pry
-# 0
+require 'rest-client'
+require 'pry'
