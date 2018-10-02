@@ -13,7 +13,7 @@ class PaintingsController < ApplicationController
 
     private
 
-  def user_params
+  def painting_params
     params.require(:painting).permit(:name, :artist, :img_url)
   end
 

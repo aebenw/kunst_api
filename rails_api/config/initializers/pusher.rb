@@ -1,1 +1,1 @@
-Pusher.secret = ENV["HARVARD"]
+

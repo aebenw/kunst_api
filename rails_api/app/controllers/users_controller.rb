@@ -7,19 +7,20 @@ class UsersController < ApplicationController
 
 
   def show
-    @user = User.find(params[:id])
+    @user = User.find(user_params[:id])
     render json: @user, status: 200
   end
 
   def create
+    # byebug
     @users = User.all
-    if @users.find {|user| user.name == params["name"]}
+    if @users.find {|user| user.name == user_params["name"]}
       render json: {error: "username already exists"}, status: 403
     else
-      @user = User.create(params)
+      @user = User.create(user_params)
       render json: @user, status: 201
     end
-  end 
+  end
 
 
   private
