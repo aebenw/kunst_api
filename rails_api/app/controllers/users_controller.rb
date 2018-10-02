@@ -11,6 +11,16 @@ class UsersController < ApplicationController
     render json: @user, status: 200
   end
 
+  def create
+    @users = User.all
+    if @users.find {|user| user.name == params["name"]}
+      render json: {error: "username already exists"}, status: 403
+    else
+      @user = User.create(params)
+      render json: @user, status: 201
+    end
+  end 
+
 
   private
 
