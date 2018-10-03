@@ -1,0 +1,2 @@
+class UserPaintingController < ApplicationController
+end
