@@ -6,7 +6,7 @@ class PaintingsController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    @painting = Painting.find(params[:id])
     render json: @user, status: 200
   end
 
