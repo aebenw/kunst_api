@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   end
 
 
-  def show    
+  def show
     @user = User.find_by(name: params[:id])
     render json: @user, status: 200
   end
@@ -18,6 +18,7 @@ class UsersController < ApplicationController
       render json: {error: "username already exists"}, status: 403
     else
       @user = User.create(user_params)
+      byebug
       render json: @user, status: 201
     end
   end
