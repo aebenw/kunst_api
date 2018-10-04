@@ -7,18 +7,16 @@ class UsersController < ApplicationController
 
 
   def show
-    @user = User.find_by(name: params[:id])
+    @user = User.find_by(name: params[:id].downcase)
     render json: @user, status: 200
   end
 
   def create
-    # byebug
     @users = User.all
-    if @users.find {|user| user.name == user_params["name"]}
+    if @users.find {|user| user.name == user_params["name"].downcase}
       render json: {error: "username already exists"}, status: 403
     else
-      @user = User.create(user_params)
-      byebug
+      @user = User.create(name: user_params[:name].downcase)
       render json: @user, status: 201
     end
   end

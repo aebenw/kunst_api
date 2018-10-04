@@ -6,10 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-User.create(:name => "Eben")
+User.create(:name => "eben")
 
 5.times do
-  User.create(:name => Faker::Name.name)
+  User.create(:name => (Faker::Name.name).downcase!)
 end
 
 Painting.create(name: "Mona Lisa", artist: "da Vinci", img_url: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwj9-MrhnebdAhVq74MKHWMBCHMQjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AMona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg&psig=AOvVaw1lbLCNwl0u96fWhZPu_aJf&ust=1538517312626811")
