@@ -12,7 +12,7 @@ User.create(:name => "eben")
   User.create(:name => (Faker::Name.name).downcase!)
 end
 
-Painting.create(name: "Mona Lisa", artist: "da Vinci", img_url: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwj9-MrhnebdAhVq74MKHWMBCHMQjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AMona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg&psig=AOvVaw1lbLCNwl0u96fWhZPu_aJf&ust=1538517312626811")
+Painting.create(name: "Mona Lisa", artist: "da Vinci", img_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/603px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg")
 Painting.create(name: "autumn rhythm", artist: "Pollack", img_url: "https://www.metmuseum.org/toah/images/hb/hb_57.92.jpg")
 
 
@@ -113,34 +113,6 @@ paintings = {
             ]
         },
         {
-            "id": 310955,
-            "title": "Courtyard",
-            "imagepermissionlevel": 1,
-            "dated": "19th-20th century",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Ross, Denman Waldo",
-                    "birthplace": "Cincinnati, OH",
-                    "personid": 28370,
-                    "prefix": nil,
-                    "name": "Denman Waldo Ross",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1853 - 1935",
-                    "culture": "American",
-                    "displayname": "Denman Waldo Ross",
-                    "deathplace": "London, England"
-                }
-            ],
-            "medium": "Oil on artist's board",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
             "id": 201413,
             "title": "Thistle",
             "imagepermissionlevel": 0,
@@ -187,34 +159,6 @@ paintings = {
                     "profile": "http://iiif.io/api/presentation/2/context.json"
                 }
             ]
-        },
-        {
-            "id": 305243,
-            "title": "Lowell House Tower",
-            "imagepermissionlevel": 1,
-            "dated": "1969",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Clas, Angelo R.",
-                    "birthplace": "Milwaukee, WI",
-                    "personid": 29696,
-                    "prefix": nil,
-                    "name": "Angelo R. Clas",
-                    "role": "Artist",
-                    "gender": "unknown",
-                    "displayorder": 1,
-                    "displaydate": "1887 - 1970",
-                    "culture": "American",
-                    "displayname": "Angelo R. Clas",
-                    "deathplace": nil
-                }
-            ],
-            "medium": "Oil on canvas board",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
         },
         {
             "id": 31155,
@@ -417,34 +361,6 @@ paintings = {
                     "profile": "http://iiif.io/api/presentation/2/context.json"
                 }
             ]
-        },
-        {
-            "id": 202534,
-            "title": "Fuyu",
-            "imagepermissionlevel": 1,
-            "dated": "Shôwa period, 1960",
-            "images": [],
-            "period": "Shōwa period, 1926-1989",
-            "people": [
-                {
-                    "alphasort": "Sugai, Kumi",
-                    "birthplace": "Kobe, Japan",
-                    "personid": 27004,
-                    "prefix": nil,
-                    "name": "Kumi Sugai",
-                    "role": "Artist",
-                    "gender": "unknown",
-                    "displayorder": 1,
-                    "displaydate": "1919 - 1996",
-                    "culture": "Japanese",
-                    "displayname": "Kumi Sugai",
-                    "deathplace": "Kobe, Japan"
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "Japanese",
-            "seeAlso": [],
-            "primaryimageurl": nil
         },
         {
             "id": 221573,
@@ -805,62 +721,6 @@ paintings = {
             ]
         },
         {
-            "id": 304825,
-            "title": "Chester Noyes Greenough (1874-1938)",
-            "imagepermissionlevel": 1,
-            "dated": "1942",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Sutton, Harry Jr.",
-                    "birthplace": "Salem, MA",
-                    "personid": 29984,
-                    "prefix": nil,
-                    "name": "Harry Sutton Jr.",
-                    "role": "Artist",
-                    "gender": "unknown",
-                    "displayorder": 1,
-                    "displaydate": "1897 - 1984",
-                    "culture": "American",
-                    "displayname": "Harry Sutton Jr.",
-                    "deathplace": "North Andover, MA"
-                },
-                {
-                    "alphasort": "Greenough, Chester Noyes",
-                    "birthplace": nil,
-                    "personid": 14885,
-                    "prefix": nil,
-                    "name": "Chester Noyes Greenough",
-                    "role": "Sitter",
-                    "gender": "unknown",
-                    "displayorder": 2,
-                    "displaydate": "1874 - 1938",
-                    "culture": nil,
-                    "displayname": "Chester Noyes Greenough",
-                    "deathplace": nil
-                },
-                {
-                    "alphasort": "Thulin, Walfred",
-                    "birthplace": nil,
-                    "personid": 11602,
-                    "prefix": "Frame by",
-                    "name": "Walfred Thulin",
-                    "role": "Frame Maker",
-                    "gender": "unknown",
-                    "displayorder": 3,
-                    "displaydate": "1878 - 1949",
-                    "culture": nil,
-                    "displayname": "Frame by Walfred Thulin",
-                    "deathplace": nil
-                }
-            ],
-            "medium": "Oil on canvas board",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
             "id": 225989,
             "title": "Girl with a Wine Glass",
             "imagepermissionlevel": 0,
@@ -1053,34 +913,6 @@ paintings = {
             ]
         },
         {
-            "id": 230740,
-            "title": "Landscape with Field",
-            "imagepermissionlevel": 1,
-            "dated": "19th-20th century",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Ross, Denman Waldo",
-                    "birthplace": "Cincinnati, OH",
-                    "personid": 28370,
-                    "prefix": nil,
-                    "name": "Denman Waldo Ross",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1853 - 1935",
-                    "culture": "American",
-                    "displayname": "Denman Waldo Ross",
-                    "deathplace": "London, England"
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
             "id": 305042,
             "title": "Joseph Coolidge (1798-1879)",
             "imagepermissionlevel": 0,
@@ -1141,34 +973,6 @@ paintings = {
                     "profile": "http://iiif.io/api/presentation/2/context.json"
                 }
             ]
-        },
-        {
-            "id": 230395,
-            "title": "Portrait of a Young Man",
-            "imagepermissionlevel": 1,
-            "dated": "1932",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Ross, Denman Waldo",
-                    "birthplace": "Cincinnati, OH",
-                    "personid": 28370,
-                    "prefix": nil,
-                    "name": "Denman Waldo Ross",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1853 - 1935",
-                    "culture": "American",
-                    "displayname": "Denman Waldo Ross",
-                    "deathplace": "London, England"
-                }
-            ],
-            "medium": "Oil on canvasboard",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
         },
         {
             "id": 299808,
@@ -1243,34 +1047,6 @@ paintings = {
                     "profile": "http://iiif.io/api/presentation/2/context.json"
                 }
             ]
-        },
-        {
-            "id": 228781,
-            "title": "Study for Verdure",
-            "imagepermissionlevel": 1,
-            "dated": "1950",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Bayer, Herbert",
-                    "birthplace": "Haag, Austria",
-                    "personid": 27037,
-                    "prefix": nil,
-                    "name": "Herbert Bayer",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1900 - 1985",
-                    "culture": "American",
-                    "displayname": "Herbert Bayer",
-                    "deathplace": "Santa Barbara, CA"
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
         },
         {
             "id": 299548,
@@ -2113,48 +1889,6 @@ paintings = {
             ]
         },
         {
-            "id": 304785,
-            "title": "Charles Loring Jackson (1847-1935)",
-            "imagepermissionlevel": 1,
-            "dated": "1930",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Perry, Lilla Cabot",
-                    "birthplace": "Boston, MA",
-                    "personid": 28041,
-                    "prefix": nil,
-                    "name": "Lilla Cabot Perry",
-                    "role": "Artist",
-                    "gender": "female",
-                    "displayorder": 1,
-                    "displaydate": "1848 - 1933",
-                    "culture": "American",
-                    "displayname": "Lilla Cabot Perry",
-                    "deathplace": "Hancock, NH"
-                },
-                {
-                    "alphasort": "Jackson, Charles Loring",
-                    "birthplace": nil,
-                    "personid": 2115,
-                    "prefix": nil,
-                    "name": "Charles Loring Jackson",
-                    "role": "Sitter",
-                    "gender": "unknown",
-                    "displayorder": 2,
-                    "displaydate": "1847-1935",
-                    "culture": nil,
-                    "displayname": "Charles Loring Jackson",
-                    "deathplace": nil
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
             "id": 209334,
             "title": "Man (Ariwara no Narihira?) on a White Horse Crossing a River",
             "imagepermissionlevel": 0,
@@ -2451,62 +2185,6 @@ paintings = {
             ]
         },
         {
-            "id": 191301,
-            "title": "Triptych",
-            "imagepermissionlevel": 1,
-            "dated": "1952",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Brooks, James",
-                    "birthplace": "St. Louis, MO",
-                    "personid": 29880,
-                    "prefix": nil,
-                    "name": "James Brooks",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1906 - 1992",
-                    "culture": "American",
-                    "displayname": "James Brooks",
-                    "deathplace": "Brookhaven, NY"
-                }
-            ],
-            "medium": "Oil on canvas mounted on pressboard",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
-            "id": 230904,
-            "title": "Portrait of a Seated Boy with Back Turned",
-            "imagepermissionlevel": 1,
-            "dated": "19th-20th century",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Ross, Denman Waldo",
-                    "birthplace": "Cincinnati, OH",
-                    "personid": 28370,
-                    "prefix": nil,
-                    "name": "Denman Waldo Ross",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1853 - 1935",
-                    "culture": "American",
-                    "displayname": "Denman Waldo Ross",
-                    "deathplace": "London, England"
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
             "id": 192468,
             "title": "Illustrated Story of Mount Oe (Oeyama monogatari), Vol. 3",
             "imagepermissionlevel": 0,
@@ -2784,34 +2462,6 @@ paintings = {
             ]
         },
         {
-            "id": 11619,
-            "title": "Painting #4",
-            "imagepermissionlevel": 1,
-            "dated": "1958",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Olitski, Jules",
-                    "birthplace": "Snovsk, Ukraine",
-                    "personid": 32723,
-                    "prefix": nil,
-                    "name": "Jules Olitski",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1922 - 2007",
-                    "culture": "American",
-                    "displayname": "Jules Olitski",
-                    "deathplace": "New York, NY"
-                }
-            ],
-            "medium": "Spackle, acrylic resin,and dry pigment on canvas",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
             "id": 231250,
             "title": "Portrait of Lord Lovell, Earl of Leicester",
             "imagepermissionlevel": 0,
@@ -2871,62 +2521,6 @@ paintings = {
                     "profile": "http://iiif.io/api/presentation/2/context.json"
                 }
             ]
-        },
-        {
-            "id": 230547,
-            "title": "Biskra, Algeria",
-            "imagepermissionlevel": 1,
-            "dated": "19th-20th century",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Ross, Denman Waldo",
-                    "birthplace": "Cincinnati, OH",
-                    "personid": 28370,
-                    "prefix": nil,
-                    "name": "Denman Waldo Ross",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1853 - 1935",
-                    "culture": "American",
-                    "displayname": "Denman Waldo Ross",
-                    "deathplace": "London, England"
-                }
-            ],
-            "medium": "Oil on canvasboard",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
-            "id": 226461,
-            "title": "Figures at a Pier",
-            "imagepermissionlevel": 1,
-            "dated": "20th century",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Unold, Max",
-                    "birthplace": "Memmungen, Germany",
-                    "personid": 29140,
-                    "prefix": nil,
-                    "name": "Max Unold",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1885 - 1969",
-                    "culture": "German",
-                    "displayname": "Max Unold",
-                    "deathplace": nil
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "German",
-            "seeAlso": [],
-            "primaryimageurl": nil
         },
         {
             "id": 216214,
@@ -3783,34 +3377,6 @@ paintings = {
             ]
         },
         {
-            "id": 231017,
-            "title": "Portrait of a Boy Holding a Book",
-            "imagepermissionlevel": 1,
-            "dated": "1897",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Ross, Denman Waldo",
-                    "birthplace": "Cincinnati, OH",
-                    "personid": 28370,
-                    "prefix": nil,
-                    "name": "Denman Waldo Ross",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1853 - 1935",
-                    "culture": "American",
-                    "displayname": "Denman Waldo Ross",
-                    "deathplace": "London, England"
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
             "id": 302047,
             "title": "John Quincy Adams (1767-1848)",
             "imagepermissionlevel": 0,
@@ -3948,34 +3514,6 @@ paintings = {
             ]
         },
         {
-            "id": 230397,
-            "title": "Portrait of a Young Man",
-            "imagepermissionlevel": 1,
-            "dated": "1928",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Ross, Denman Waldo",
-                    "birthplace": "Cincinnati, OH",
-                    "personid": 28370,
-                    "prefix": nil,
-                    "name": "Denman Waldo Ross",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1853 - 1935",
-                    "culture": "American",
-                    "displayname": "Denman Waldo Ross",
-                    "deathplace": "London, England"
-                }
-            ],
-            "medium": "Oil on canvasboard",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
             "id": 216262,
             "title": "Maharaja Fateh Singh of Jodhpur",
             "imagepermissionlevel": 0,
@@ -4022,34 +3560,6 @@ paintings = {
                     "profile": "http://iiif.io/api/presentation/2/context.json"
                 }
             ]
-        },
-        {
-            "id": 228551,
-            "title": "Abstraction",
-            "imagepermissionlevel": 1,
-            "dated": "1959",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Damian, Horia",
-                    "birthplace": "Bucharest, Romania",
-                    "personid": 34527,
-                    "prefix": nil,
-                    "name": "Horia Damian",
-                    "role": "Artist",
-                    "gender": "unknown",
-                    "displayorder": 1,
-                    "displaydate": "1922 - 2012",
-                    "culture": "French",
-                    "displayname": "Horia Damian",
-                    "deathplace": nil
-                }
-            ],
-            "medium": "Mixed media on canvas",
-            "culture": "French",
-            "seeAlso": [],
-            "primaryimageurl": nil
         },
         {
             "id": 217023,
@@ -4408,34 +3918,6 @@ paintings = {
             ]
         },
         {
-            "id": 231016,
-            "title": "Orizaba, Mexico",
-            "imagepermissionlevel": 1,
-            "dated": "1891",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Ross, Denman Waldo",
-                    "birthplace": "Cincinnati, OH",
-                    "personid": 28370,
-                    "prefix": nil,
-                    "name": "Denman Waldo Ross",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1853 - 1935",
-                    "culture": "American",
-                    "displayname": "Denman Waldo Ross",
-                    "deathplace": "London, England"
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
             "id": 231539,
             "title": "Christ Driving the Money Changers from the Temple",
             "imagepermissionlevel": 0,
@@ -4482,76 +3964,6 @@ paintings = {
                     "profile": "http://iiif.io/api/presentation/2/context.json"
                 }
             ]
-        },
-        {
-            "id": 305049,
-            "title": "Derek Denny-Brown (1901-1981)",
-            "imagepermissionlevel": 1,
-            "dated": "1968",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Cox, Gardner",
-                    "birthplace": "Holyoke, MA",
-                    "personid": 33856,
-                    "prefix": nil,
-                    "name": "Gardner Cox",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1906 - 1988",
-                    "culture": "American",
-                    "displayname": "Gardner Cox",
-                    "deathplace": "Cambridge, MA"
-                },
-                {
-                    "alphasort": "Denny-Brown, Derek",
-                    "birthplace": nil,
-                    "personid": 9693,
-                    "prefix": nil,
-                    "name": "Derek Denny-Brown",
-                    "role": "Sitter",
-                    "gender": "unknown",
-                    "displayorder": 2,
-                    "displaydate": "1901 - 1981",
-                    "culture": nil,
-                    "displayname": "Derek Denny-Brown",
-                    "deathplace": nil
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
-        },
-        {
-            "id": 230869,
-            "title": "Boat in the Canal, Venice",
-            "imagepermissionlevel": 1,
-            "dated": "19th-20th century",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Ross, Denman Waldo",
-                    "birthplace": "Cincinnati, OH",
-                    "personid": 28370,
-                    "prefix": nil,
-                    "name": "Denman Waldo Ross",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1853 - 1935",
-                    "culture": "American",
-                    "displayname": "Denman Waldo Ross",
-                    "deathplace": "London, England"
-                }
-            ],
-            "medium": "Oil on canvasboard",
-            "culture": "American",
-            "seeAlso": [],
-            "primaryimageurl": nil
         },
         {
             "id": 311062,
@@ -4858,34 +4270,6 @@ paintings = {
                     "profile": "http://iiif.io/api/presentation/2/context.json"
                 }
             ]
-        },
-        {
-            "id": 212296,
-            "title": "The Artist's Studio",
-            "imagepermissionlevel": 1,
-            "dated": "1928",
-            "images": [],
-            "period": nil,
-            "people": [
-                {
-                    "alphasort": "Dufy, Raoul",
-                    "birthplace": "Le Havre, France",
-                    "personid": 18826,
-                    "prefix": nil,
-                    "name": "Raoul Dufy",
-                    "role": "Artist",
-                    "gender": "male",
-                    "displayorder": 1,
-                    "displaydate": "1877 - 1953",
-                    "culture": "French",
-                    "displayname": "Raoul Dufy",
-                    "deathplace": "Forcalquier, France"
-                }
-            ],
-            "medium": "Oil on canvas",
-            "culture": "French",
-            "seeAlso": [],
-            "primaryimageurl": nil
         },
         {
             "id": 5240,

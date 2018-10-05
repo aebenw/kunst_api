@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   resources :paintings, only: [:index, :show]
   resources :user_paintings, only: [:create, :delete]
 
-  # get '/user/:name', to 'users#
+
+  delete '/user_paintings', to: "user_paintings#destroy"
 end

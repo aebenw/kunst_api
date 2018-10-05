@@ -6,10 +6,11 @@ class UserPaintingsController < ApplicationController
     render json: @up, status: :created
   end
 
-  # def destroy
-  #   @up = UserPainting.find_by(user_id: up_params[:user_id], painting_id: up_params[:painting_id])
-  #   render json:, status: 204,
-  # end
+  def destroy
+    byebug
+    @up = UserPainting.find_by(up_params)
+    @up.destroy
+  end
 
   private
 
