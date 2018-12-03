@@ -7,7 +7,13 @@ class UsersController < ApplicationController
 
 
   def show
-    @user = User.find_by(name: params[:id].downcase)
+    # byebug
+    if User.find_by(name: params[:id].downcase)
+      @user = User.find_by(name: params[:id].downcase)
+    else
+      @user = User.create(name: params[:id].downcase)
+    end
+
     render json: @user, status: 200
   end
 

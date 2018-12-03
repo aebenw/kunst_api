@@ -1,24 +1,10 @@
-# README
+Welcome to Kunst
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a an art gallery app that allows you to see a painting as it would look like in a gallery space.
 
-Things you may want to cover:
+You can choose from a list of paintings, add them to your user profile, then test it out inside of the gallery space.
 
-* Ruby version
+The image rendering and manipulation is accomplished with D3.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A demo of the application can be found here:
+https://www.youtube.com/watch?v=IiEX0H9KfbI

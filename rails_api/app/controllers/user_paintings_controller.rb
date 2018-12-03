@@ -7,7 +7,6 @@ class UserPaintingsController < ApplicationController
   end
 
   def destroy
-    byebug
     @up = UserPainting.find_by(up_params)
     @up.destroy
   end
